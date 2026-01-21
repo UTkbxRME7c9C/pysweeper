@@ -24,7 +24,7 @@ def import_images():
 def main_pygame():
     pygame.init()
     screen = pygame.display.set_mode((600,600))
-    pygame.display.set_caption("Minesweeper")
+    pygame.display.set_caption("PySweeper")
     clock = pygame.time.Clock()
     font = pygame.font.Font(resource_path("font.ttf"), 40)
     #0-8
